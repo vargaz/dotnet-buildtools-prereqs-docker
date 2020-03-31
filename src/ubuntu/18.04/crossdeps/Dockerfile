@@ -18,14 +18,14 @@ RUN apt-get update \
         cmake \
         debootstrap \
         gdb \
+        libarchive-dev \
+        libbsd-dev \
+        libbz2-dev \
+        liblzma-dev \
+        libz-dev \
         make \
         qemu \
         qemu-user-static \
-        libbz2-dev \
-        libz-dev \
-        liblzma-dev \
-        libarchive-dev \
-        libbsd-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update \

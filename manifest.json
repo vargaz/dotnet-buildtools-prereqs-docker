@@ -405,7 +405,7 @@
             {
               "dockerfile": "src/ubuntu/18.04/cross/freebsd/11",
               "os": "linux",
-              "osVersion": "freebsd.11",
+              "osVersion": "ubuntu18.04",
               "tags": {
                 "ubuntu-18.04-cross-freebsd-11-$(System:TimeStamp)-$(System:DockerfileGitCommitSha)": {}
               }
@@ -417,7 +417,7 @@
             {
               "dockerfile": "src/ubuntu/18.04/cross/freebsd/12",
               "os": "linux",
-              "osVersion": "freebsd.12",
+              "osVersion": "ubuntu18.04",
               "tags": {
                 "ubuntu-18.04-cross-freebsd-12-$(System:TimeStamp)-$(System:DockerfileGitCommitSha)": {}
               }
