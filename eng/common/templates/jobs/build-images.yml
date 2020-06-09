@@ -30,6 +30,7 @@ jobs:
       $(runImageBuilderCmd) build
       --manifest $(manifest)
       $(imageBuilderPaths)
+      $(osVersions)
       --os-type $(osType)
       --architecture $(architecture)
       --retry
